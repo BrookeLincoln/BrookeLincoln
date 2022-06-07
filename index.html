@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/glightbox.min.css"
+  <title>Brooke Lincoln's Portfolio</title>
+</head>
+
+<body>
+  <!-- Begin Hero Header -->
+  <header class="hero-box">
+    <section class="hero-image-box">
+      <img class="hero-image" src="images/green-gradient.jpg" alt="abstract green and white gradient image">
+    </section>
+    <section class="hero-text-box">
+      <h1 class="hero-heading">Brooke Lincoln</h1>
+      <p class="hero-text">More text underneath the hero image</p>
+      <p>
+        <a href="#portfolio">
+          <button type="button" class="hero-button">View Portfolio</button>
+        </p>
+    </section>
+  </header>
+  <!-- End Hero Header -->
+
+  <!-- Begin Portfolio (at about 48 minutes in the YouTube tutorial I'm watching for lightbox js)-->
+    <section id="portfolio" class="portfolio-container">
+      <h1>Portfolio</h1>
+    <section class="portfolio-gallery">
+      <div class="gallery-item">
+        <a href="images/navy-pier-flowers.jpg" class="glightbox">
+        <img src="images/navy-pier-flowers.jpg" alt="flowers with Lake Michigan in the background at Navy Pier in Chicago, Illinois" class="gallery-img">
+      </div>
+      <div class="gallery-item">
+        <a href="images/BCF-Leaders-Meeting.JPG" class="glightbox">
+        <img src="images/BCF-Leaders-Meeting.JPG" alt="Brooke, Vaida, Corrynn and Naya at the first get together after summer 2021 at Vaida's apartment." class="gallery-img">
+      </div>
+      <div class="gallery-item">
+        <a href="images/Welcome-Week-2019.JPG" class="glightbox">
+        <img src="images/Welcome-Week-2019.JPG" alt="Brooke Lincoln sits on the steps of Memorial Union during Welcome Week 2019 at the University of Missouri-Columbia" class="gallery-img">
+      </div>
+      <div class="gallery-item">
+        <a href="images/Multimedia-Planning-Design-Meme.jpg" class="glightbox">
+        <img src="images/Multimedia-Planning-Design-Meme.jpg" alt="A meme I made for Patrick Garvin's Multimedia Planning and Design course at the Missouri School of Journalism in Sring 2022." class="gallery-img">
+      </div>
+      <div class="gallery-item">
+        <a href="images/alison-brooke-bubblecup.jpg" class="glightbox">
+        <img src="images/alison-brooke-bubblecup.jpg" alt="Alison and Brooke go on their IA pair and share for Involvement Ambassadors. They went to Bubblecup Tea Zone in Downtown Columbia, MO." class="gallery-img">
+      </div>
+      <!--Continue adding div elements until all images/materials are in the gallery. Include your name in the file descriptions to optimize SEO. Check out the video in the guy's description!!! :)-->
+    </section>
+  <!-- End Portfolio -->
+
+  <!-- Begin About -->
+    <section class="about-container">
+      <section class="about-text">
+        <h1>Heading One Text To Add Here</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p><a href="mailto:email@example.com">Email me</a> email@example.com</p>
+        <div class="about-social">
+          <a href="https://instagram.com/brookelinc0ln" aria-label="Link to Instagram">
+            <i class="fa-brands fa-instagram fa-2x" aria-hidden="true"></i>
+            <h4 style="margin-top: 0.25rem;">Instagram</h4>
+          <a href="https://linkedin.com/brookelincoln" aria-label="Link to LinkedIn">
+            <i class="fa-brands fa-linkedin-in fa-2x" aria-hidden="true"></i>
+            <h4 style="margin-top: 0.25rem;">LinkedIn</h4>
+          <a href="https://github.com/BrookeLincoln" aria-label="Link to Github">
+            <i class="fa-brands fa-github fa-2x" aria-hidden="true"></i>
+            <h4 style="margin-top: 0.25rem;">Github</h4>
+          <a href="https://www.youtube.com/channel/UC1qhg2kLZmkSTKcyaBWdbsA" aria-label="Link to Brooke L.'s YouTube channel">
+            <i class="fa-brands fa-youtube fa-2x" aria-hidden="true"></i>
+            <h4 style="margin-top: 0.25rem;">YouTube</h4>
+          </div>
+      </section>
+    </section>
+
+  <!-- End About -->
+  <script src="https://kit.fontawesome.com/84ee229804.js" crossorigin="anonymous"></script>
+  <script src="js/glightbox.min.js"></script>
+  <script type="text/javascript">
+  const  lightbox = GLightbox({ loop: true});</script>
+</body>
+</html>
